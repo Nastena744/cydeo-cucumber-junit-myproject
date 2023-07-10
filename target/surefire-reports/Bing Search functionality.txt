@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Bing Search functionality
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.775 s <<< FAILURE! - in Bing Search functionality
+Bing Search functionality.Search result title verification #1  Time elapsed: 22.971 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"user should see orange in the title" matches more than one step definition:
+  "user should see orange in the title" in com.cydeo.step_definitions.Bing_StepDefinitions.userShouldSeeOrangeInTheTitle()
+  "user should see {word} in the title" in com.cydeo.step_definitions.Google_StepDefinitions.user_should_see_apple_in_the_title(java.lang.String)
+
